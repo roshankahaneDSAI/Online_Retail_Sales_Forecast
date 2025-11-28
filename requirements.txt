@@ -1,7 +1,11 @@
 numpy 
 pandas
+matplotlib
 seaborn
-#matplotlib
+catboost
 polars
 scikit-learn
 xgboost
+shap
+GPy
+
