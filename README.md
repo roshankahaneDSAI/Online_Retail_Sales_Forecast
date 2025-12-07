@@ -68,7 +68,7 @@ flowchart LR
 # Main notebook: EDA → features → model → tuning → results
 ├── research/data/
               └── OnlineRetail.csv 
-├── research/data/
+├── research/
         └── e-commerce-sales-forecast.ipynb            # Source dataset (not included in repo) 
 ├── assets/
 │   └── ecommerce-forecast-cover.svg # GitHub cover illustration
