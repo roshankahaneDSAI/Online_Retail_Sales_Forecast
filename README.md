@@ -1,3 +1,35 @@
+<!-- Cover Image -->
+<p align="center">
+  <img src="assets/ecommerce-forecast-cover.svg" alt="E-commerce Sales Forecasting Cover" width="80%">
+</p>
+
+<h1 align="center">🛒 E-Commerce Sales Forecasting & Warehouse Optimization</h1>
+
+<p align="center">
+  <b>End-to-end demand forecasting pipeline for online retail using CatBoost, Bayesian Optimization, and rich feature engineering</b>
+</p>
+
+<p align="center">
+  <!-- Badges -->
+  <a href="https://www.python.org/downloads/">
+    <img src="https://img.shields.io/badge/python-3.9%2B-blue.svg" alt="Python 3.9+">
+  </a>
+  <a href="https://jupyter.org/">
+    <img src="https://img.shields.io/badge/Jupyter-Notebook-orange.svg" alt="Jupyter">
+  </a>
+  <a href="https://catboost.ai/">
+    <img src="https://img.shields.io/badge/model-CatBoost-green.svg" alt="CatBoost">
+  </a>
+  <img src="https://img.shields.io/badge/hpo-Bayesian%20Optimization-ff69b4.svg" alt="Bayesian Optimization">
+  <img src="https://img.shields.io/badge/status-Research%20Project-informational.svg" alt="Status">
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-lightgrey.svg" alt="License: MIT">
+  </a>
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome">
+</p>
+
+---
+
 ## 🚀 Overview
 
 This project builds an **end-to-end sales forecasting pipeline** for an online retail dataset, focused on:
@@ -14,20 +46,19 @@ The core model uses **CatBoostRegressor**, tuned with **Bayesian Optimization (G
 
 The diagram below summarizes the end-to-end flow from raw data to forecasts:
 
+
 ```mermaid
 flowchart LR
-    A[Raw Online Retail Data<br/>(CSV / DB)] --> B[Data Cleaning & Validation]
-    B --> C[Daily Aggregation<br/>(Product × Date)]
-    C --> D[Feature Engineering<br/>• Time features<br/>• Lag features<br/>• Rolling stats]
-    D --> E[Train / Validation Split]
-    E --> F[CatBoost Model]
-    F --> G[Bayesian HPO<br/>(GPyOpt)]
-    G --> H[Trained Forecasting Model]
-    H --> I[Daily Demand Forecasts]
-    I --> J[Warehouse & Inventory Insights]
-````
+    A["Raw Online Retail Data\n(CSV / DB)"] --> B["Data Cleaning & Validation"]
+    B --> C["Daily Aggregation\n(Product × Date)"]
+    C --> D["Feature Engineering\n• Time features\n• Lag features\n• Rolling stats"]
+    D --> E["Train / Validation Split"]
+    E --> F["CatBoost Model"]
+    F --> G["Bayesian HPO\n(GPyOpt)"]
+    G --> H["Trained Forecasting Model"]
+    H --> I["Daily Demand Forecasts"]
+    I --> J["Warehouse & Inventory Insights"]
 
----
 
 ## 📂 Project Structure
 
