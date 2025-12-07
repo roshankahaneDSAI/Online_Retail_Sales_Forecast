@@ -1,6 +1,6 @@
 <!-- Cover Image -->
 <p align="center">
-  <img src="assets/ecommerce-forecast-cover.svg" alt="E-commerce Sales Forecasting Cover" width="80%">
+  <img src="./assets/ecommerce-forecast-cover.svg" alt="E-commerce Sales Forecasting Cover" width="80%">
 </p>
 
 <h1 align="center">🛒 E-Commerce Sales Forecasting & Warehouse Optimization</h1>
@@ -58,7 +58,7 @@ flowchart LR
     G --> H["Trained Forecasting Model"]
     H --> I["Daily Demand Forecasts"]
     I --> J["Warehouse & Inventory Insights"]
-
+```
 
 ## 📂 Project Structure
 
